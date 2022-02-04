@@ -8,7 +8,7 @@ const Card: React.FC = () => {
   const { currentAccount } = useContext(TransactionContext);
 
   return (
-    <div className="card w-full md:w-8/12 rounded-xl p-4 mx-auto flex flex-col bg-blue-600	text-white">
+    <div className="card max-w-lg w-full md:w-8/12 rounded-xl p-4 mx-auto flex flex-col bg-blue-600	text-white">
       <div className="flex justify-between items-center mb-12">
         <div className="p-2 border-[2px] border-white rounded-full ">
           <SiEthereum fontSize={24} />

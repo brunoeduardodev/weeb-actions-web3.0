@@ -8,7 +8,7 @@ const Welcome: React.FC = () => {
     useContext(TransactionContext);
 
   return (
-    <div className="flex w-10/12 md:w-9/12 m-auto mt-8 md:mt-32  flex-col md:flex-row mb-24">
+    <div className="flex max-w-screen-2xl	 w-10/12 md:w-11/12 m-auto mt-8 md:mt-32  flex-col md:flex-row mb-24">
       <div className="w-full md:w-1/2 flex flex-col text-center md:text-left items-center md:items-start text-white">
         <h2 className="text-5xl font-bold mb-4">
           Make your friends get <strong>MEMED</strong>

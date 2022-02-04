@@ -20,7 +20,7 @@ const Transactions: React.FC = () => {
   }, [currentAccount, hasEthereum]);
 
   return (
-    <div className="w-full flex flex-col items-center mb-12">
+    <div className="w-full mx-auto max-w-screen-2xl	 flex flex-col items-center mb-12">
       <h5
         className={`text-white text-${
           currentAccount ? "4" : ""
@@ -29,7 +29,7 @@ const Transactions: React.FC = () => {
         {message}
       </h5>
 
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center p-4">
         {transactions.map((transaction, index) => (
           <Transaction
             key={index}
