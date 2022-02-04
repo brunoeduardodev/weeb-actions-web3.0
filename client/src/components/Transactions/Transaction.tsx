@@ -26,7 +26,7 @@ const Transaction: React.FC<Props> = ({
       </p>
       <p className="mb-2">-and also {amount} ETH</p>
       <img
-        className="rounded"
+        className="rounded object-cover h-64"
         src={contractImage || "https://i.waifu.pics/CJRHy2-.gif"}
         alt="transaction"
       />
