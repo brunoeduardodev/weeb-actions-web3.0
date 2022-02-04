@@ -46,7 +46,7 @@ class MyDocument extends Document {
           <meta name="twitter:title" content="Weeb Blockchain" />
           <meta
             name="twitter:image"
-            content="https://weeb-actions-web3-0.vercel.app/ogimage.jgp"
+            content="https://weeb-actions-web3-0.vercel.app/ogimage.jpg"
           />
         </Head>
         <body>
