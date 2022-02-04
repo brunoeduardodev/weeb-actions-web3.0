@@ -35,7 +35,7 @@ class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta
             property="og:image"
-            content="https://weeb-actions-web3-0.vercel.app/ogimage.jgp"
+            content="https://weeb-actions-web3-0.vercel.app/ogimage.jpg"
           />
 
           <meta name="twitter:card" content="summary_large_image" />
